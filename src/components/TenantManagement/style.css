@@ -1,0 +1,216 @@
+.main {
+  /* background: var(--neutral); */
+  /* padding: 10px; */
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px;
+  border: none;
+  margin-bottom: 24px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.tenant-form {
+  display: flex;
+}
+
+.form-sections {
+  min-height: 70vh;
+  /* background: var(--neutral); */
+}
+
+.tenant-section-list {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.form-container {
+  width: 100%;
+  /* background: var(--neutral-subtle); */
+  padding: 10px 25px;
+  /* margin-left: 10px; */
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.form-control {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tenant-name-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tenant-logo {
+  width: 75px;
+  height: 42px;
+}
+::-webkit-scrollbar {
+  width: 3px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5e5959; /* Set the color of the scrollbar thumb */
+  border-radius: 10px;
+}
+.add-poc {
+  /* /* border-radius: var(--Radius, 4px); */
+  border-radius: var(--Radius, 4px);
+  border: 1px solid var(--Gray-300, #e0e0e0);
+  background: var(--Gray-100, #f5f5f5);
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: 8px;
+  /* width:"100px" */
+  margin: '10px';
+  color: 'black';
+}
+.braft-btn {
+  border-radius: 37px 0px 37px 37px;
+  background: var(--Secondry-200, #00d5ca);
+  border: none;
+  /* Elevation/S */
+  padding: 5px;
+  box-shadow:
+    0px 4px 32px -4px var(--Gray-200, #eee),
+    0px 2px 4px 0px var(--Primary-200, #d6c9f1);
+}
+.edit-btn {
+  display: flex;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--Radius, 4px);
+  border: 1px solid var(--Gray-300, #e0e0e0);
+  background: var(--Gray-100, #f5f5f5);
+  /* gap: var(--H-Padding, 16px); */
+  width: 100px;
+}
+.save-btn {
+  border-radius: var(--Radius, 4px);
+  background: var(--Primary-Main, #7346d0);
+  border: none;
+  width: 163px;
+}
+.upload-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
+  width: 168px;
+  border-radius: var(--Scale_2s-S, 8px);
+  background: var(--Gray-100, #f5f5f5);
+  border: 1px solid var(--Gray-300, #e0e0e0);
+  padding: 10px;
+}
+.Db-config {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  gap: 24px;
+}
+.sso-container {
+  display: flex;
+  width: 584.639px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.vendor-container {
+  display: flex;
+  padding: 21px 26px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  width: 439px;
+}
+.congfig-heading {
+  color: #000;
+
+  /* Large1200/H4/Bold */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+}
+.main-heading {
+  color: var(--Grayscale-Text-Body, #413c4c);
+
+  /* Large1200/H4/Bold */
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+}
+.database-config-container {
+  display: flex;
+  /* width: 701px; */
+  padding: var(--NumberScale-2s-2XL, 24px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.table-cell {
+  border: 1px solid var(--Gray-200, #eee);
+  padding: 01px;
+  margin: 0px;
+}
+.table-cell-column {
+  padding: 0px;
+  margin: 0px;
+}
+.edit-img {
+  width: var(--NumberScale-2s-2XL, 24px);
+  height: var(--NumberScale-2s-2XL, 24px);
+}
+.dialogue-container {
+  /* width: 43.6875rem; */
+  /* background: var(--Common-white, #FFF); */
+}
+.dialogue-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--NumberScale-2s-2XL, 1.5rem);
+
+  align-self: stretch;
+}
+.dialogue-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.dialogue-cancel-btn {
+  border-radius: var(--Radius, 12px);
+  border: 1px solid var(--Gray-300, #e0e0e0);
+  background: var(--Gray-100, #f5f5f5);
+  color: #000;
+}
+.dialogue-addpoc-btn {
+  border-radius: var(--Radius, 12px);
+  background: var(--Primary-Main, #7346d0);
+  cursor: pointer;
+}
+.elix-text {
+  border-radius: 100px;
+  /* margin: 10px; */
+  border-radius: 0px 4px 4px 0px;
+  /* border: 1px solid var(--Gray-600, #757575); */
+  background: var(--Primary-Light, #f8f2ff);
+}
